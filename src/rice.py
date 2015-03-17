@@ -1,9 +1,5 @@
 #!/bin/env python
-from rice import search
-from rice import render
-from rice import download
-from rice import swapout
-from rice import swapin
+from rice import search, render, download, swapout, swapin
 
 import argparse
 

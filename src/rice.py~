@@ -6,7 +6,7 @@ import json
 # Main Script for running riceDB
 # To install a new rice, rice.py will:
 # Search for the specified rice/software using the search lib
-# Process the results of the search call, organizing by a criterion
+# Process the results of the search call, organizing by a criteri
 # such as popularity
 # Call the rendering library which will take the sorted list and
 # display the options to the user, as well as a way for the user

@@ -1,6 +1,6 @@
 <h1 align="center">
 <sub>
-<img src="https://cloud.githubusercontent.com/assets/5554865/6839738/6dfe9d62-d32a-11e4-83c4-4f86607258f3.png"
+<img src="http://i.imgur.com/VzoJo7a.png"
       height="331"
       width="732">
 </sub>

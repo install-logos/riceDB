@@ -100,7 +100,7 @@ class Rice(object):
             results = search.get_results() 
             if len(results) == 1:
                 temp_pack = results[0]
-                rice_installer = installer.Installer(temp_pack.program, temp_pack.name, temp_pack.url)
+                rice_installer = installer.Installer(temp_pack.program, temp_pack.name, temp_pack.upstream)
                 rice_installer.download()
                 rice_installer.install()
                 self.update_localdb(temp_pack.name, temp_pack.program)
@@ -113,7 +113,7 @@ class Rice(object):
         results = search.get_results()
         #Do something with Render
         selection = self.renderer.pick_packs(results) 
-        rice_installer = installer.Installer(selection.program, selection.name, selection.url)
+        rice_installer = installer.Installer(selection.program, selection.name, selection.upstream)
         rice_installer.download()
         if not rice_installer.check_install():
             self.create_rice(prog_name)

@@ -1,0 +1,4 @@
+{
+  "db" : "http://176.31.118.84:8000",
+  "localdb" : "~/.rdb/localdatabase"
+}
